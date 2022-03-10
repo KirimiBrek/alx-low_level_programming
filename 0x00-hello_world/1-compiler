@@ -1,2 +1,1 @@
-#!/bin/bash
-gcc -c main.c
+#!/bin/bash                                       gcc -c 1-main.c
