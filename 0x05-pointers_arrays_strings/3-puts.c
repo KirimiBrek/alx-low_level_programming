@@ -1,21 +1,19 @@
 #include "main.h"
-#include <unistd.h>
 
 /**
- * _puts - prints a string to stdout
- * @str: pointer to the string to print
+ * _puts - Write a function that prints a string, followed
+ * by a new line, to stdout.
+ * @str: an input string
+ * Return: Nothing
  */
 void _puts(char *str)
-
-/**
- * main-checks the code for string
- *
- */
-int main(void)
 {
-	char *str;
+	int i = 0;
 
-	str = "Holberton!";
-	_puts(str);
-	return (0);
+	while (str[i] != '\0')
+	{
+		_putchar(str[i]);
+		i++;
+	}
+	_putchar('\n');
 }
