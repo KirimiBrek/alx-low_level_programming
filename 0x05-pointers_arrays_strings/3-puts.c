@@ -6,12 +6,16 @@
  * @str: pointer to the string to print
  */
 void _puts(char *str)
-{
-	int i;
 
-	for (i = 0; str[i] != '\0'; i++)
-	{
-		_puts(str[i]);
-	}
-	_putchar('\n');
+/**
+ * main-checks the code for string
+ *
+ */
+int main(void)
+{
+	char *str;
+
+	str = "Holberton!";
+	_puts(str);
+	return (0);
 }
