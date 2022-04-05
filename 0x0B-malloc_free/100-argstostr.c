@@ -3,6 +3,21 @@
 #include "main.h"
 
 /**
+ * _strlen - returns the length of the string
+ * @s: input string to count
+ * Description: returns the length of a given string
+ * Return: length of string as int
+ **/
+int _strlen(char *s)
+{
+	int i;
+
+	for (i = 0; s[i] != '\0'; i++)
+		;
+	return (i + 1);
+}
+
+/**
  * *argstostr - concatenates all the arguments of the program
  * @ac: number of arguments
  * @av: array of arguments
