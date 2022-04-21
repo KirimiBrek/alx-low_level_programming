@@ -1,23 +1,7 @@
-Toggle navigation
-You just released the optional tasks of this project. Have fun!
-0x12. C - Singly linked lists
+Singly linked lists project 
  By Julien Barbier
  Weight: 1
- Ongoing project - started Apr 21, 2022, must end by Apr 22, 2022 - you're done with 0% of tasks.
- Checker was released at Apr 21, 2022 12:00 PM
- An auto review will be launched at the deadline
-Concepts
-For this project, students are expected to look at this concept:
 
-Data Structures
-
-
-Resources
-Read or watch:
-
-Linked Lists
-Google
-Youtube
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
@@ -57,9 +41,7 @@ typedef struct list_s
     unsigned int len;
     struct list_s *next;
 } list_t;
-Quiz questions
-Great! You've completed the quiz successfully! Keep going! (Show quiz)
-Tasks
+
 0. Print list
 mandatory
 Write a function that prints all the elements of a list_t list.
