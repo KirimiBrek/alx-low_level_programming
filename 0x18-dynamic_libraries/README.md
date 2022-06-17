@@ -1,5 +1,5 @@
-# # # 0x18. C - Dynamic libraries
-     # # Table of contents
+# 0x18. C - Dynamic libraries
+## Table of contents
 
 |     Files	             |     Description                                    |
 | -------------------------- | ---------------------------------------------------|     
